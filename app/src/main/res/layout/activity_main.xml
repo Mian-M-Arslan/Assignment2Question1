@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Assignment No 1 and Question No 1"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="180dp"
+        android:text="OFF" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:text="ON" />
+
+    <CheckBox android:id="@+id/java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:text="@string/android"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox android:id="@+id/xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25dp"
+        android:text="@string/xml"
+        android:onClick="onCheckboxClicked"/>
+
+    <RadioButton android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/male"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="20dp"
+        android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/female"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="200dp"
+        android:textSize="20dp"
+        android:onClick="onRadioButtonClicked"/>
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here"
+        />
+
+    <ImageSwitcher
+        android:id="@+id/imgsw"
+        android:layout_width="151dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move to next activity"
+        android:layout_marginTop="400dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="400dp"
+
+        />
+
+
+
+</RelativeLayout>

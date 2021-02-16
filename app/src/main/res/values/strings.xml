@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment1_Question1</string>
+    <string name="java">Java</string>
+    <string name="xml">XML</string>
+    <string name="android">Android</string>
+    <string name="male">MALE</string>
+    <string name="female">Female</string>
+
+</resources>
